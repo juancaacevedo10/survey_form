@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Furvey_form</title>
+</head>
+<body>
+    <main>
+        <section>
+
+            <h1 id="title">ENCUESTA TRANSPORTE PUBLICO</h1>
+            <p id="description"> Esta encuenta esta se realiza con el fin de conocer los medios de transporte publico mas utilizados actualmente </p>
+
+        </section>
+        <section>
+        
+        <form action="#" id="survey-form">
+
+            <label id="name-label">Nombre:<input type="text" id="name" placeholder="Ingrese su nombre" required></label>
+
+            <label id="email-label">Email: <input type="email" id="email" placeholder="Ingrese su correo" required></label>
+
+            <label id="number-label">Edad: <input type="number" id="number" placeholder="Ingrese su edad" min="15" max="100" required></label>
+            
+
+            <label for="cars" id="select">Cada cuanto usa el transporte publico cada semana: <select id="dropdown">
+                <option value="volvo">----</option>
+                <option value="saab">Menos de 10 veces</option>
+                <option value="mercedes">Entre 10 y 15</option>
+                <option value="audi">Mas de 15</option>
+                <option value="audi">No uso transporte publico</option>
+            </select></label>
+            
+            <label id="tran_fav">Seleccione su transporte publico favorito:
+            <label for="a"><input type="radio" name="fav_trans" value="Taxi">Taxi
+            </label>
+            <label for="a"><input type="radio" name="fav_trans" value="Bus">Bus
+            </label>
+            <label for="a"><input type="radio" name="fav_trans" value="Metro">Metro
+            </label>
+            <label for="a"><input type="radio" name="fav_trans" value="Uber">Uber
+            </label>
+            <label for="a"><input type="radio" name="fav_trans" value="Otros">Otros
+            </label>
+            </label>
+
+            <label id="sele_transporte">Seleccione los tipos de transporte publico que usted utiliza constantemente: 
+            <label for="selctrans"><input type="checkbox" name="selctrans" value="Metro">Metro
+            </label>
+            <label for="selctrans"><input type="checkbox" name="selctrans" value="Metro Plus">Metro Plus
+            </label>
+            <label for="selctrans"><input type="checkbox" name="selctrans" value="Metro Cable">Metro Cable
+            </label>
+            <label for="selctrans"><input type="checkbox" name="selctrans" value="Tranvia">Tranvia
+            </label>
+            <label for="selctrans"><input type="checkbox" name="selctrans" value="Bus">Bus
+            </label>
+            <label for="selctrans"><input type="checkbox" name="selctrans" value="Taxi">Taxi
+            </label>
+            <label for="selctrans"><input type="checkbox" name="selctrans" value="Uber">Uber
+            </label>
+            <label for="selctrans"><input type="checkbox" name="selctrans" value="Otros">Otros
+            </label>
+            </label>
+
+            <label id="name-label">Comentarios:</label><textarea name="area" id="text-area" cols="30" rows="10"></textarea>
+            <center>
+            <button type="submit" id="submit">Enviar</button>
+           </center>
+        </form>
+    </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

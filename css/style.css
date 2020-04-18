@@ -1,0 +1,137 @@
+body{
+    background-color: blue;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 100px 100px 100px;
+    padding: 30px 30px 30px 30px;
+    background-color: rgb(127, 184, 178);
+    border-radius: 40px;
+}
+
+#title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white; 
+    text-align: center;
+}
+
+#description{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     color: white;
+     text-align: justify;
+     margin-left: 50px;
+     margin-right: 50px;
+
+}
+
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    line-height: 45px;
+    margin: 30px 30px 30px 100px;
+    
+
+}
+
+#name-label{
+    font-size: 20px;
+    color: white;
+}
+
+#email-label{
+    font-size: 20px;
+    color: white;
+}
+
+#number-label{
+    font-size: 20px;
+    color: white;
+}
+
+#select{
+    font-size: 20px;
+    color: white;
+}
+
+
+#name{
+    width: 50%;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+#email{
+    width: 50%;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+#number{
+    width: 10%;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+#dropdown{
+    width: 20%;
+    height: 20px;
+    border-radius: 30px;
+    margin-left: 5px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+#sele_transporte{
+
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#sele_transporte input{
+    height: 20px;
+    width: 20px;
+}
+
+#tran_fav{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#text-area{
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+}
+
+#submit{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    border: 5px solid blue;
+}
